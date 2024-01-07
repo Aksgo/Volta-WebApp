@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <!-- div tags  : divide the contents-->
+    <!-- span tag : while div referes to a block with span we can work in a line -->
+    <h3 align = "center">Registration form</h3>
+    <!--creating a form using html
+    radio, checkbox, email, password, date-->
+    <form mehtod="get" method>
+        <!--above we use a function method which has get method or post method
+        the difference between them is 
+        GET carries request parameter appended in URL string while POST carries request parameter in message body 
+        -->
+        <!--to each field we must add a name attribute so as to get the user input -->
+        User name : <input type = "text" name="username" required><br>
+        email : <input type = "email" name="email" required><br><!--required email type-->
+        Gender :<br>Male<input type = "radio" name="gen" value="male">
+        <br>Female<input type="radio", name="gen" value="female"><br>
+        Receive News: <input type = "checkbox" name="newsletter"><br>
+        Agree to privacy policy<br>
+        <!--select tag use to create a drop to select multiple values-->
+        <select name="privacy">
+        <option value="Yes">Yes</option><!--the value attribute specifies the value to be sent to the server-->
+        <option value="No">No</option>
+        </select><br>
+        <!--other types
+        DOB : <input type = "date"><br>
+        password : <input type="password" min ="8"> passowrd field with minimum 8 characters
+        -->
+        <input type = "submit" value="Register"><!--submit button-->
+        <input type="Reset"><br><!--reset button-->
+        <!--the value we passd on registration is stored in url which we can pass to server
+        ?username=akshit&email=aksh%40gmai.com&gen=on&newsletter=on-->
+        <!--again we received another data but this time we gave a
+        value attribute to the gender radio button so that instead of
+        on a value is passd that is male or female
+        |
+        |
+        ?username=fakename
+        &email=fake%40gmail
+        &gen=male
+        &newsletter=on
+        -->
+    </form>
+</body>
+</html>

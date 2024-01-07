@@ -1,0 +1,90 @@
+/* Selector{
+    property : value;
+} */
+*{
+    text-align: center;
+    font-family: "Bahnschrift Light";
+}
+.MainHeader{
+    font-family: "Calibri";
+    color:rgb(0, 9, 94);
+    border: 3px solid rgb(35, 0, 92);
+    border-radius: 10px;
+    margin: 20px 180px 5px 180px;
+}
+/*need to check it*/
+
+/* 
+#headingMain{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2em 2em;
+    background-color: red;
+} */
+.Headlines{
+    text-align: left;
+    padding: 10px 0px 0px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color : rgb(52, 0, 157);
+
+}
+#header{
+    /* border-bottom: 2px solid rgb(48, 0, 96);
+    position:sticky; */
+    padding: 0.1em 1em;
+    margin: 1.2rem 2rem;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#RegisterForm{
+    
+    margin: 0px 580px 10px 580px;
+    padding: 10px 10px 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
+}
+.field1{
+    width:17em;
+}
+ul{
+    text-align: right;
+    padding: 0px 10px 0px 0px;
+}
+li{
+    cursor: pointer;
+    list-style: none;
+    display:inline-block;
+    padding: 1px 5px 1px 5px;
+}
+
+li a
+{text-decoration: none;
+}
+li a:link{
+    color: rgb(12, 0, 39);
+}
+
+li a:visited{
+    color: rgb(12, 0, 39);
+}
+li a:hover{
+    color:rgb(0, 6, 174);
+}
+img{
+    float: left;
+    margin: 0.5rem 1rem;
+    padding: 3px 3px 3px 3px;
+}
+footer{
+    clear: both; /*this is used because we used float
+    and we dont want this element to come in float */
+    text-align: center;
+    padding: 10px;
+}
+.AlreadyRegistered{
+    /*background: rgb(153, 194, 248);*/
+}
+
+#RegisterForm{
+    
+    /*background: rgb(211, 211, 255);*/
+}

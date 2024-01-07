@@ -5,6 +5,13 @@
     text-align: center;
     font-family: "Bahnschrift Light";
 }
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
 .HeaderMenu{
     display: grid;
     grid-template-columns: 2fr 6fr 2fr;
@@ -18,9 +25,10 @@
 }
 .MainHeader{
     font-family: "Calibri";
-    color:rgb(0, 9, 94);
+    color:rgb(255, 255, 255);
+    /* 
     border: 3px solid rgb(35, 0, 92);
-    border-radius: 10px;
+    border-radius: 10px; */
     margin: 20px 180px 5px 180px;
 }
 
@@ -35,33 +43,35 @@
     margin: 2em 2em;
     background-color: red;
 } */
+.instruction{color:white;}
 .headlines{
     text-align: left;
     padding: 10px 3px 1px 7px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color : rgb(0, 53, 110);
+    font-family:serif;
+    color : rgb(0, 0, 0);
 
 } 
 #header{
     /* border-bottom: 2px solid rgb(48, 0, 96);
     position:sticky; */
+    background-color: white;
     padding: 0.1em 1em;
     margin: 1.2rem 2rem;
     border-radius: 15px;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 .form-real{
-    
+    background-color: white;
     /* margin: 0px 580px 10px 580px;
     */
     border-radius: 10px;
     padding: 20px 20px 20px 20px;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 20px 18px 10px rgba(0, 0, 0, 0.5)
 
 }
 .field1{
     width:17em;
-    
+    border-radius:4px;
 }
 .field1:hover{
     border-color:  rgb(31, 0, 157);
@@ -89,14 +99,25 @@ li a:visited{
 li a:hover{
     color:rgb(0, 6, 174);
 }
+.btn{
+    background-color: rgb(0, 110, 255);
+    color:white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 6px 0px 6px;
+    cursor: pointer;
+}
+
 img{
     float: left;
     margin: 0.5rem 1rem;
     padding: 3px 3px 3px 3px;
 }
 footer{
-    clear: both; /*this is used because we used float
+    color: white;
+    clear: both; /*this is used becaus 1e we used float
     and we dont want this element to come in float */
     text-align: center;
-    padding: 10px;
+   
 }

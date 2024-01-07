@@ -14,7 +14,7 @@ body{
 }
 .HeaderMenu{
     display: grid;
-    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-columns: 2fr 19fr 2fr;
     justify-items: center;
 }
 .form{
@@ -25,7 +25,7 @@ body{
 }
 .MainHeader{
     font-family: "Calibri";
-    color:rgb(255, 255, 255);
+    color:rgb(255, 255, 255, 0.8);
     /* 
     border: 3px solid rgb(35, 0, 92);
     border-radius: 10px; */
@@ -51,12 +51,16 @@ body{
     color : rgb(0, 0, 0);
 
 } 
+
+hr{
+    max-width: 50%;
+}
 #header{
     /* border-bottom: 2px solid rgb(48, 0, 96);
     position:sticky; */
     background-color: white;
     padding: 0.1em 1em;
-    margin: 1.2rem 2rem;
+    margin: 1rem 3rem 1rem 3rem;
     border-radius: 15px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
@@ -71,7 +75,7 @@ body{
 }
 .field1{
     width:17em;
-    border-radius:4px;
+    border-radius:8px;
 }
 .field1:hover{
     border-color:  rgb(31, 0, 157);
@@ -103,7 +107,7 @@ li a:hover{
     background-color: rgb(0, 110, 255);
     color:white;
     border: none;
-    border-radius: 10px;
+    border-radius: 300px;
     padding: 5px 10px 5px 10px;
     margin: 5px 6px 0px 6px;
     cursor: pointer;
@@ -119,5 +123,6 @@ footer{
     clear: both; /*this is used becaus 1e we used float
     and we dont want this element to come in float */
     text-align: center;
+    padding: 7px;
    
 }

@@ -47,6 +47,7 @@
     position:sticky; */
     padding: 0.1em 1em;
     margin: 1.2rem 2rem;
+    border-radius: 15px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .form-real{

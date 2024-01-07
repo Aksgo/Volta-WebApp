@@ -5,12 +5,27 @@
     text-align: center;
     font-family: "Bahnschrift Light";
 }
+.HeaderMenu{
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    justify-items: center;
+}
+.form{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+}
 .MainHeader{
     font-family: "Calibri";
     color:rgb(0, 9, 94);
     border: 3px solid rgb(35, 0, 92);
     border-radius: 10px;
     margin: 20px 180px 5px 180px;
+}
+
+.SiteName h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /*need to check it*/
 
@@ -20,13 +35,13 @@
     margin: 2em 2em;
     background-color: red;
 } */
-.Headlines{
+.headlines{
     text-align: left;
-    padding: 10px 0px 0px 10px;
+    padding: 10px 3px 1px 7px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color : rgb(52, 0, 157);
+    color : rgb(0, 53, 110);
 
-}
+} 
 #header{
     /* border-bottom: 2px solid rgb(48, 0, 96);
     position:sticky; */
@@ -34,16 +49,21 @@
     margin: 1.2rem 2rem;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#RegisterForm{
+.form-real{
     
-    margin: 0px 580px 10px 580px;
-    padding: 10px 10px 20px 10px;
+    /* margin: 0px 580px 10px 580px;
+    */
     border-radius: 10px;
+    padding: 20px 20px 20px 20px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
 }
 .field1{
     width:17em;
+    
+}
+.field1:hover{
+    border-color:  rgb(31, 0, 157);
 }
 ul{
     text-align: right;
@@ -62,7 +82,6 @@ li a
 li a:link{
     color: rgb(12, 0, 39);
 }
-
 li a:visited{
     color: rgb(12, 0, 39);
 }
@@ -79,12 +98,4 @@ footer{
     and we dont want this element to come in float */
     text-align: center;
     padding: 10px;
-}
-.AlreadyRegistered{
-    /*background: rgb(153, 194, 248);*/
-}
-
-#RegisterForm{
-    
-    /*background: rgb(211, 211, 255);*/
 }

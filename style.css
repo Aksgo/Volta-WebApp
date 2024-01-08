@@ -1,0 +1,97 @@
+.logo{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    
+
+}
+/* .nav{
+    max-width: 955px;
+    background-color: rgb(30, 0, 6);
+    margin :auto; 
+} */
+.container{
+    max-width: 955px;
+    background-color: rgb(128, 81, 21);
+    margin :auto;
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 2px;
+    overflow-y: scroll;
+
+}
+.users{
+    background-color: aquamarine;
+    width : 24%;
+    max-width: 200px;
+    padding: 8px;
+    margin: 0px 5px;
+    border: 2px solid black ;
+    border-radius: 10px;
+    float: right;
+    clear: both;
+    cursor: pointer;
+}
+.sign{
+    
+    display: block;
+    float: right;
+    margin-inline-end: 300px;
+    text-align: center;
+    max-width: 100px;
+    height: 20px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(147, 95, 95);
+}
+.modal-content{
+    max-width: 955px;
+    background-color: rgb(62, 14, 99);
+    margin :auto;
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 2px;
+    overflow-y: scroll;
+    margin-bottom: 5px;
+}
+/* .close {
+    position:absolute;
+    text-align: left;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+} */
+.newcontainer{
+    max-width: 955px;
+    height: 50px;
+    background-color: rgb(147, 95, 95);
+    margin :auto;
+}
+#send-container{
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 990px;
+    width: 100%;
+}
+#messageInp{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 34px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 34px;
+
+}
